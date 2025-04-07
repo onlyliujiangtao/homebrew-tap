@@ -7,6 +7,7 @@ class Frpc < Formula
   license "Apache-2.0"
 
   bottle do
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "2913d02eb26edae814ff8b7d5e5756df4075e54ee5a640fa555d45173b465404"
     sha256 cellar: :any_skip_relocation, arm64_monterey: "2913d02eb26edae814ff8b7d5e5756df4075e54ee5a640fa555d45173b465404"
     sha256 cellar: :any_skip_relocation, arm64_big_sur:  "2913d02eb26edae814ff8b7d5e5756df4075e54ee5a640fa555d45173b465404"
     sha256 cellar: :any_skip_relocation, ventura:        "f95ee77e6e02701a7f0c6bb5520e55bd93d1c9a570b1c55f43b9443d3fd25116"
